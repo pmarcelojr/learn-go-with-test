@@ -3,7 +3,7 @@ package inteiros
 import "testing"
 
 func TestAdicionador(t *testing.T) {
-	soma := Adiciona(2, 2)
+	soma := adiciona(2, 2)
 	esperado := 4
 
 	if soma != esperado {
